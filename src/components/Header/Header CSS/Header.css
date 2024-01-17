@@ -1,0 +1,83 @@
+.flex{
+  display: flex;
+}
+
+.Font-color{
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.5rem !important;
+  color: #5CB85C !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Sign-in, .Sign-up, .Home {
+  margin-left: 20px;
+}
+
+
+.text-decoration {
+  text-decoration: none;
+  color: gray; 
+  margin: 0 10px;
+  cursor: pointer;
+}
+.text-decoration:hover {
+  text-decoration: none;
+}
+.text-decoration.active, .Sign-in.active,
+.Sign-up.active {
+  color: black; 
+  text-decoration: none;
+}
+.padding-header{
+  padding: 0.5rem 1rem;
+}
+
+/* Add this CSS to your existing styles */
+
+/* Responsive Sidebar Styles */
+.navbar {
+  background-color: #f8f9fa; /* Adjust the background color as needed */
+}
+
+.navbar-nav .nav-link {
+  padding: 15px;
+  color: #343a40; /* Adjust the text color as needed */
+}
+
+/* Larger Screen Header Styles */
+.padding-header {
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa; /* Adjust the background color as needed */
+}
+
+.padding-header .Home {
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40; /* Adjust the text color as needed */
+}
+
+.padding-header .flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.padding-header .text-decoration {
+  text-decoration: none;
+  color: gray;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.padding-header .text-decoration:hover {
+  text-decoration: none;
+}
+
+.padding-header .text-decoration.active,
+.padding-header .Sign-in.active,
+.padding-header .Sign-up.active {
+  color: black;
+  text-decoration: none;
+}
+
+/* Adjust the styling based on your design preferences */

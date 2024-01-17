@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&family=Source+Sans+Pro&display=swap');
+
+
+.text-h1-ar {
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    line-height: 1.1;
+    color: white;
+    word-wrap: break-word;
+    max-width: 90%; 
+}
+
+
+.banner-ar {
+    margin-top: -10px;
+    /* text-align: center; */
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+}
+
+.container-ar {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-font-ar {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.p-font-ar {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 24px;
+}
+
+.user-detail {
+    color: #BBBBBB;
+    font-size: 12.8px;
+}
+
+.user-detail {
+    margin-left: 10px;
+    /* Add some margin to the user details */
+}
+
+.font-ar-body {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    margin-left: 150px;
+    word-wrap: break-word;
+    max-width: 77%; 
+}
+.same {
+    margin-left: 110px;
+
+}
+.xs12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}

@@ -1,0 +1,253 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.your {
+  margin-right: 20px;
+}
+
+.your,
+.global,
+.tag {
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
+  color: gray;
+  transition: color 0.3s ease;
+}
+
+.your:hover,
+.global:hover,
+.tag:hover {
+  color: black;
+}
+
+.your.active,
+.global.active,
+.tag.active {
+  background: #fff !important;
+  border-bottom: 2px solid #5CB85C !important;
+  color: #5CB85C !important;
+}
+
+.botbor {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.size-img img {
+  height: 32px;
+  width: 32px;
+  border-radius: 30px;
+  /* vertical-align: middle; */
+  margin-right: 10px;
+}
+
+.size-img {
+  text-decoration: none;
+  color: #5CB85C;
+}
+
+.size-img:hover {
+  text-decoration: underline;
+}
+
+.user-detail {
+  color: #BBBBBB;
+  font-size: 12.8px;
+}
+
+
+.buright {
+  float: right;
+  /* margin-left: 700px; */
+}
+
+.bi-heart-fill {
+  margin-right: 5px;
+}
+
+
+.btn-outline-primary {
+  color: #5CB85C !important;
+  background-image: none;
+  background-color: transparent;
+  border-color: #5CB85C !important;
+}
+
+.btn-outline-primary:hover {
+  color: white !important;
+  background-color: #5CB85C !important;
+}
+
+.font-title {
+  font-size: 24px;
+}
+
+.font-link-ar {
+  text-decoration: none;
+  color: black;
+}
+
+.font-link-ar:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.font-desc {
+  color: #373A3C;
+  font-weight: 300;
+}
+
+.font-desc-ar {
+  text-decoration: none;
+}
+
+.font-desc-ar:hover {
+  text-decoration: none;
+  color: #373A3C;
+}
+
+.font-tag-ar {
+  text-decoration: none;
+}
+
+.font-tag-ar:hover {
+  text-decoration: none;
+  color: #BBBBBB;
+}
+
+.font-tag {
+  max-width: 30%;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #bbb;
+  vertical-align: middle;
+}
+
+
+.article-preview {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 0;
+}
+
+.user-detail {
+  margin-left: 10px;
+  /* Add some margin to the user details */
+}
+
+
+
+
+.tag-default {
+  color: #bbb !important;
+  font-weight: 300;
+  font-size: 0.8rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  white-space: nowrap;
+  margin-right: 3px;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+
+.tag-default {
+  background-color: #818a91;
+}
+
+.tag-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+}
+
+ul.tag-list {
+  padding-left: 0px !important;
+  display: inline-block;
+  list-style: none !important;
+}
+
+.tag-default.tag-outline {
+  border: 1px solid #ddd;
+  color: #999999 !important;
+  background: none !important;
+}
+
+a:focus,
+a:hover {
+  color: #3d8b3d;
+  text-decoration: underline;
+}
+
+/* 
+.tag-list {
+  margin-left: 640px;
+} */
+
+.sidebar li {
+  color: white;
+  /* max-width: fit-content; */
+  border: 0 solid #818a91;
+  border-radius: 25px;
+  background-color: #818a91;
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  margin-right: 5px;
+  margin-bottom: 0.2rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+  padding-left: 0rem;
+}
+
+.sidebar {
+  width: 270px;
+}
+
+.sidebar {
+  background: #f3f3f3;
+  border-radius: 4px;
+}
+
+.sidebar-right {
+  text-align: right;
+}
+
+.sidebar p {
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.tag-button {
+  color: white;
+  border: 0 solid #818a91;
+  background-color: #818a91;
+  padding: 0;
+}
+
+
+.sidebar ul {
+  padding-left: 0;
+}
+
+
+.sidebar li:hover {
+  border: 0 solid #838e96;
+  background-color: #838e96;
+}
+
+/* Add this to your CSS */
+.clicked {
+  background-color: #5CB85C
+    /* Your desired clicked background color */
+  ;
+  color: white
+    /* Your desired clicked text color */
+  ;
+}

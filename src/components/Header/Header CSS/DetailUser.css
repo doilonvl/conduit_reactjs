@@ -1,0 +1,129 @@
+.user-info {
+  text-align: center;
+  background: #f3f3f3;
+  padding: 2rem 0 1rem 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+@media (min-width:1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 768px) {
+  .offset-md-1 {
+    margin-left: 8%;
+  }
+
+  .col-md-10 {
+    position: relative;
+    min-height: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
+
+.profile-page .user-info .user-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 1rem;
+}
+
+.profile-page .user-info h4 {
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+.profile-page .user-info p {
+  margin: 0 auto 0.5rem auto;
+  color: #aaa;
+  max-width: 450px;
+  font-weight: 300;
+}
+
+.profile-page .user-info .action-btn {
+  float: right;
+  color: #999;
+  border: 1px solid #999;
+}
+
+btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 1px;
+}
+
+i {
+  font-style: italic;
+}
+
+.profile-page .articles-toggle {
+  margin: 1.5rem 0 -1px 0;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.articles-list .nav-item {
+  float: left;
+}
+
+.articles-list .nav-link .outline-active {
+  border-radius: 0px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: #aaa;
+}
+
+li {
+  display: list-item;
+  /* text-align: --webkit-match-parent; */
+}
+
+.articles-list .nav-link .active {
+  background: #fff !important;
+  border-bottom: 2px solid #5CB85C;
+  color: #5CB85C !important;
+}
+
+.article-preview-ar {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0; 
+}
+.text-deco , .text-deco2{
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
+  color: gray;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.margin-right{
+  margin-right: 20px;
+}
+
+.text-deco:hover, .text-deco2:hover {
+  text-decoration: none;
+  color: black;
+}
+.text-deco.active, .text-deco2.active{
+  /* background: #fff !important; */
+  color: #5CB85C;
+}

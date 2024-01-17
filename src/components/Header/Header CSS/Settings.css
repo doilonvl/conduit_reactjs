@@ -1,0 +1,41 @@
+.btn1 {
+    border: 2px soild rgb(199, 104, 110);
+    color: rgb(199, 104, 110);
+    background-color: white;
+}
+
+.settings {
+    text-align: center;
+}
+
+.settings .ip1 {
+    width: 540px;
+    height: 37.6px;
+}
+
+.settings .ip2 {
+    width: 540px;
+    height: 50.6px;
+}
+
+.settings .texta {
+    height: 212px;
+    width: 540px;
+}
+
+.btnSetting {
+    background-color: #5CB85C;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    width: 182.75;
+    height: 50.6px;
+    margin-left: 412px;
+}
+
+.btnSetting:hover {
+    background-color: #489548;
+}
+
+.btnLogout {
+    margin-right: 350px;
+}
